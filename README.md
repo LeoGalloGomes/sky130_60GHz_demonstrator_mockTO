@@ -3,10 +3,8 @@
 
 ---
 
-| :exclamation: Important Note            |
-|-----------------------------------------|
-
-## Please fill in your project documentation in this README.md file 
+| :exclamation: Team Brazil's 60 GHz demonstrator            |
+|------------------------------------------------------------|
 
 
 Mock tape-out of the 60 GHz demonstrator chip, as part of 2022 IEEE SSCS Chipathon.
