@@ -1,0 +1,21 @@
+timestamp 1490572217
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__res_xhigh_po l=l w=w
+parameters sky130_fd_pr__res_xhigh_po_5p73 l=l
+parameters sky130_fd_pr__res_xhigh_po_2p85 l=l
+parameters sky130_fd_pr__res_xhigh_po_1p41 l=l
+parameters sky130_fd_pr__res_xhigh_po_0p69 l=l
+parameters sky130_fd_pr__res_xhigh_po_0p35 l=l
+port "VGA_Vtune" 2 -77296 1544 -75296 3544 m3
+port "VGA_Vdd" 1 -77296 42920 -75296 44920 m3
+port "VGA_Gnd" 3 -77296 -41396 -75296 -39396 m3
+node "VGA_Vtune" 113 69635.8 -77296 1544 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119232 2280 152078 2122 155236 1576 27383036 163828 0 0 0 0 0 0
+node "a_113_545#" 14493 0 113 545 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138000 2276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VGA_Vdd" 113 101573 -77296 42920 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119232 2280 152078 2122 155236 1576 39241736 242886 0 0 0 0 0 0
+substrate "VGA_Gnd" 0 0 -77296 -41396 m3 0 0 0 0 0 0 0 0 0 0 166872 9816 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 584477 11728 22115326843 605524 630436 3176 4000000 8000 0 0 0 0 0 0
+cap "VGA_Vtune" "VGA_Vdd" 8.17509
+device rsubckt sky130_fd_pr__res_xhigh_po 113 545 114 546 l=1000 w=138 "VGA_Gnd" "a_113_545#" 0 0 "VGA_Vtune" 138 0 "VGA_Vdd" 138 0

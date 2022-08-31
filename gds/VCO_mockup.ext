@@ -1,0 +1,38 @@
+timestamp 1490572217
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+port "VCO_Vctrl" 2 -50758 10817 -48758 12817 m3
+port "VCO_Vmirror" 3 -50758 -11921 -48758 -9921 m3
+port "VCO_Vdd" 1 -50758 35800 -48758 37800 m3
+port "VCO_Gnd" 4 -50758 -36904 -48758 -34904 m3
+node "VCO_Vctrl" 24508 73811.5 -50758 10817 m3 0 0 0 0 0 0 0 0 660000 21320 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 342720 20840 632800 21280 1488196 41656 39951836 129674 0 0 0 0 0 0
+node "VCO_Vmirror" 27207 74552.7 -50758 -11921 m3 0 0 0 0 0 0 0 0 718000 23436 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 376992 22924 696080 23408 1633412 45744 40246476 130894 0 0 0 0 0 0
+node "VCO_Vdd" 1188 113151 -50758 35800 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 715920 47200 0 0 44880 4000 885136 26008 282436 3976 60343436 197646 0 0 0 0 0 0
+substrate "VCO_Gnd" 0 0 -50758 -36904 m3 0 0 0 0 0 0 0 0 0 0 235416 13848 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 829556 12598 11637964784 444816 630436 3176 4000000 8000 0 0 0 0 0 0
+cap "VCO_Vmirror" "VCO_Vdd" 2477.31
+cap "VCO_Vctrl" "VCO_Vdd" 2167.61
+cap "VCO_Vctrl" "VCO_Vmirror" 55346.4
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1918 100 1919 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vctrl" 1000 0 "VCO_Vmirror" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1822 100 1823 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vmirror" 1000 0 "VCO_Vctrl" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1726 100 1727 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vctrl" 1000 0 "VCO_Vmirror" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1630 100 1631 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vmirror" 1000 0 "VCO_Vctrl" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1534 100 1535 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vctrl" 1000 0 "VCO_Vmirror" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1438 100 1439 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vmirror" 1000 0 "VCO_Vctrl" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1342 100 1343 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vctrl" 1000 0 "VCO_Vmirror" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1246 100 1247 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vmirror" 1000 0 "VCO_Vctrl" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1150 100 1151 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vctrl" 1000 0 "VCO_Vmirror" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1054 100 1055 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vmirror" 1000 0 "VCO_Vctrl" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 958 100 959 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vctrl" 1000 0 "VCO_Vmirror" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 862 100 863 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vmirror" 1000 0 "VCO_Vctrl" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 766 100 767 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vctrl" 1000 0 "VCO_Vmirror" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 670 100 671 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vmirror" 1000 0 "VCO_Vctrl" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 574 100 575 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vctrl" 1000 0 "VCO_Vmirror" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 478 100 479 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vmirror" 1000 0 "VCO_Vctrl" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 382 100 383 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vctrl" 1000 0 "VCO_Vmirror" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 286 100 287 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vmirror" 1000 0 "VCO_Vctrl" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 190 100 191 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vctrl" 1000 0 "VCO_Vmirror" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 94 100 95 101 l=30 w=1000 "VCO_Gnd" "VCO_Vdd" 60 0 "VCO_Vmirror" 1000 0 "VCO_Vctrl" 1000 0

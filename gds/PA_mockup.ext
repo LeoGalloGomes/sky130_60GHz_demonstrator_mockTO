@@ -1,0 +1,21 @@
+timestamp 1490572217
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__res_xhigh_po l=l w=w
+parameters sky130_fd_pr__res_xhigh_po_5p73 l=l
+parameters sky130_fd_pr__res_xhigh_po_2p85 l=l
+parameters sky130_fd_pr__res_xhigh_po_1p41 l=l
+parameters sky130_fd_pr__res_xhigh_po_0p69 l=l
+parameters sky130_fd_pr__res_xhigh_po_0p35 l=l
+port "PA_Vgg" 2 -1336 39000 664 41000 m3
+port "PA_Vdd" 1 -27573 39000 -25573 41000 m3
+port "PA_Gnd" 3 27796 39000 29796 41000 m3
+node "PA_Vgg" 113 45276.7 -1336 39000 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119232 2280 480754 3766 409600 2560 18522056 104070 0 0 0 0 0 0
+node "a_113_545#" 14493 0 113 545 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138000 2276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "PA_Vdd" 113 58297.5 -27573 39000 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119232 2280 480754 3766 409600 2560 23311256 135998 0 0 0 0 0 0
+substrate "PA_Gnd" 0 0 27796 39000 m3 0 0 0 0 0 0 0 0 0 0 166872 9816 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1092216 11760 14588720000 531640 630436 3176 4000000 8000 0 0 0 0 0 0
+cap "PA_Vgg" "PA_Vdd" 8.17509
+device rsubckt sky130_fd_pr__res_xhigh_po 113 545 114 546 l=1000 w=138 "PA_Gnd" "a_113_545#" 0 0 "PA_Vgg" 138 0 "PA_Vdd" 138 0

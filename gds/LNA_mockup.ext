@@ -1,0 +1,21 @@
+timestamp 1490572217
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+port "LNA_Vdd" 1 -67349 29420 -65349 31420 m3
+port "LNA_Gnd" 2 -67349 -28796 -65349 -26796 m3
+node "LNA_Vdd" 9838 90576.5 -67349 29420 m3 0 0 0 0 0 0 0 0 66000 2660 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 117960 7600 0 0 57800 4420 285444 8016 155236 1576 33245036 202908 0 0 0 0 0 0
+substrate "LNA_Gnd" 0 0 -67349 -28796 m3 0 0 0 0 0 0 0 0 77600 3176 115736 6808 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1157026 11262 16555586672 527750 1082212 8010 4000000 8000 0 0 0 0 0 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1011 157 1012 158 l=30 w=200 "LNA_Gnd" "LNA_Vdd" 60 0 "LNA_Vdd" 200 0 "LNA_Gnd" 200 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 915 157 916 158 l=30 w=200 "LNA_Gnd" "LNA_Vdd" 60 0 "LNA_Gnd" 200 0 "LNA_Vdd" 200 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 819 157 820 158 l=30 w=200 "LNA_Gnd" "LNA_Vdd" 60 0 "LNA_Vdd" 200 0 "LNA_Gnd" 200 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 723 157 724 158 l=30 w=200 "LNA_Gnd" "LNA_Vdd" 60 0 "LNA_Gnd" 200 0 "LNA_Vdd" 200 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 627 157 628 158 l=30 w=200 "LNA_Gnd" "LNA_Vdd" 60 0 "LNA_Vdd" 200 0 "LNA_Gnd" 200 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 531 157 532 158 l=30 w=200 "LNA_Gnd" "LNA_Vdd" 60 0 "LNA_Gnd" 200 0 "LNA_Vdd" 200 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 435 157 436 158 l=30 w=200 "LNA_Gnd" "LNA_Vdd" 60 0 "LNA_Vdd" 200 0 "LNA_Gnd" 200 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 339 157 340 158 l=30 w=200 "LNA_Gnd" "LNA_Vdd" 60 0 "LNA_Gnd" 200 0 "LNA_Vdd" 200 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 243 157 244 158 l=30 w=200 "LNA_Gnd" "LNA_Vdd" 60 0 "LNA_Vdd" 200 0 "LNA_Gnd" 200 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 147 157 148 158 l=30 w=200 "LNA_Gnd" "LNA_Vdd" 60 0 "LNA_Gnd" 200 0 "LNA_Vdd" 200 0
